@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MyCalculator.MyCalculatorContentPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="1" ColumnSpacing="1" HorizontalOptions="FillAndExpand"  x:Name="calcGrid" VerticalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                
+            </Grid.RowDefinitions>
+
+            <Entry  Grid.Row="0" Grid.Column="0" Keyboard="Numeric" x:Name="historyEntry" Grid.ColumnSpan="3" FontSize="28" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="C" Grid.Row="0" Grid.Column="3" Grid.RowSpan="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="clear_Click"/>
+
+            <Entry  Grid.Row="1" Grid.Column="0" Keyboard="Numeric" x:Name="numberEntry" Text="0" FontSize="56" Grid.ColumnSpan="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+
+
+            <Button x:Name="ButtonNum1" Text="1" Grid.Row="2" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonNum2" Text="2" Grid.Row="2" Grid.Column="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonNum3" Text="3" Grid.Row="2" Grid.Column="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonPlus" Text="+" Grid.Row="2" Grid.Column="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Operation_Click"/>
+
+
+            <Button x:Name="ButtonNum4" Text="4" Grid.Row="3" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonNum5" Text="5" Grid.Row="3" Grid.Column="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonNum6" Text="6" Grid.Row="3" Grid.Column="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonMoins" Text="-" Grid.Row="3" Grid.Column="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Operation_Click"/>
+
+
+            <Button x:Name="ButtonNum7" Text="7" Grid.Row="4" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonNum8" Text="8" Grid.Row="4" Grid.Column="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonNum9" Text="9" Grid.Row="4" Grid.Column="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonMultiplication" Text="*" Grid.Row="4" Grid.Column="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Operation_Click"/>
+
+
+            <Button x:Name="ButtonPoint" Text="." Grid.Row="5" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonNum0" Text="0" Grid.Row="5" Grid.Column="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Number_Click"/>
+
+            <Button x:Name="ButtonEgalee" Text="=" Grid.Row="5" Grid.Column="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="equal_Click"/>
+
+            <Button x:Name="ButtonDiviser" Text="/" Grid.Row="5" Grid.Column="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#B2B8BC" FontSize="56" Clicked="Operation_Click"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

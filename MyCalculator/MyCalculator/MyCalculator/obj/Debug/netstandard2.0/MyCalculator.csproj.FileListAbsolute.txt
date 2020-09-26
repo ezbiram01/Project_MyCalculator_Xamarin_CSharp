@@ -1,0 +1,15 @@
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\bin\Debug\netstandard2.0\MyCalculator.deps.json
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\bin\Debug\netstandard2.0\MyCalculator.dll
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\bin\Debug\netstandard2.0\ref\MyCalculator.dll
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\bin\Debug\netstandard2.0\MyCalculator.pdb
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.csprojAssemblyReference.cache
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\MyCalculatorContentPage.xaml.g.cs
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.AssemblyInfoInputs.cache
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.AssemblyInfo.cs
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.dll
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\ref\MyCalculator.dll
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.pdb

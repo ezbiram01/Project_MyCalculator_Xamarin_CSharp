@@ -1,0 +1,1 @@
+C:\Users\ziadb\OneDrive\Bureau\Michel_C#_Hiver2020\Xamarin\devoir\MyCalculator\MyCalculator\MyCalculator.UWP\MyCalculator.UWP.csproj;x86
